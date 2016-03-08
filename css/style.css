@@ -139,7 +139,12 @@ footer {
   margin-top: 20px;
   text-transform: uppercase;
   padding-right: 10px;
+  display: block;
 }
+.footer-nav {
+  display: none;
+}
+
 .footer-link:hover {
   float: right;
   color: #E5756F;
@@ -220,6 +225,28 @@ footer {
   }
   .contact-info {
     max-width: 65%;
+  }
+  .footer-nav {
+    display: block;
+    float: right;
+  }
+  .footer-nav ul.nav li{
+    border-right: 1px solid #181619;
+    padding: 0 5px;
+  }
+  .footer-nav ul.nav li:nth-child(3){
+    border-right: none;
+  }
+  .footer-nav ul.nav li a{
+    color: #181619;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .footer-nav ul.nav li a:hover{
+    text-decoration: underline;
+  }
+  .footer-link {
+    display: none;
   }
 
 }
